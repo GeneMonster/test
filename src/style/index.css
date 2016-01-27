@@ -1,16 +1,47 @@
+body, html, div, ul, li, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.nav h1 {
+	color: gray;
+	height: 180px;
+	line-height: 180px;
+	font-size: 23px;
+	font-family: "Source Code Pro";
+	border: 1px solid #ddd;
+	margin: 50px;
+	text-align: center;
+}
+
 .container {
 	overflow: auto;
 	width: 1180px;
+	margin: 50px auto;
 	border: 1px solid #ddd;
+	border-radius: 10px;
 }
 
 .menu {
 	width: 280px;
+	height: 600px;
 	float: left;
+	margin-left: 50px;
+	padding: 30px;
 	border: 1px solid #ddd;
+}
+
+.menu li {
+	height: 40px;
+	line-height: 40px;
 }
 
 .content {
 	float: left;
-	width: 900px;
+	width: 600px;
+	height: 600px;
 }
