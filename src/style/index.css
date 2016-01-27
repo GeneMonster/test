@@ -1,0 +1,16 @@
+.container {
+	overflow: auto;
+	width: 1180px;
+	border: 1px solid #ddd;
+}
+
+.menu {
+	width: 280px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.content {
+	float: left;
+	width: 900px;
+}
